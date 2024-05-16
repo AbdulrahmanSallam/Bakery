@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <title>Bakery</title>
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- fw -->
     <link rel="stylesheet" href="./core/css/all.min.css">
     <!-- bs -->
@@ -79,12 +81,12 @@
         <div class="container">
             <div class="row g-4 justify-content-center align-items-center">
                 <div class="col-md-11 col-lg-6">
-                    <div class="pe-lg-5">
+                    <div class="pe-lg-5" data-aos="flip-left">
                         <img src="./assets/images/2.jpg" loading="lazy" class="img-fluid" alt="boards">
                     </div>
                 </div>
                 <div class="col-md-11  col-lg-6">
-                    <div class="right">
+                    <div class="right" data-aos="fade-left">
                         <h2>Who we are?</h2>
                         <p class="text-muted">We have been operating for over 30 years and are Members of The Federation
                             of Master
@@ -126,7 +128,7 @@
         <div class="container">
             <div class="row g-4 align-items-center justify-content-center">
                 <div class="col-md-11 col-lg-6">
-                    <div class="left pe-lg-5">
+                    <div class="left pe-lg-5" data-aos="fade-right">
                         <h2>Our Location</h2>
                         <p class="text-muted  p-center">We have been operating for over 30 years and are Members of The
                             Federation
@@ -140,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col-md-11  col-lg-6">
-                    <div>
+                    <div data-aos="flip-right">
                         <img src="./assets/images/3.jpg" loading="lazy" class="img-fluid" alt="bakery">
                     </div>
                 </div>
@@ -156,7 +158,7 @@
             </div>
             <div class="content row g-5 justify-content-center justify-content-md-start text-center g-4">
                 <div class="col-11 col-md-6 col-lg-4">
-                    <figure>
+                    <figure data-aos="zoom-out-right">
                         <div class="top">
                             <img src="./assets/images/bread.jpg" class="img-fluid" loading="lazy" alt="breads">
                         </div>
@@ -169,7 +171,7 @@
                     </figure>
                 </div>
                 <div class="col-11 col-md-6 col-lg-4">
-                    <figure>
+                    <figure data-aos="zoom-out-up">
                         <div class="top">
                             <img src="./assets/images/bagel.jpg" class="img-fluid" alt="bagels">
                         </div>
@@ -182,7 +184,7 @@
                     </figure>
                 </div>
                 <div class="col-11 col-md-6 col-lg-4">
-                    <figure>
+                    <figure data-aos="zoom-out-left">
                         <div class="top">
                             <img src="./assets/images/cookies.jpg" loading="lazy" class="img-fluid" alt="cookies">
                         </div>
@@ -202,7 +204,7 @@
         <div class="container">
             <div class="row g-4 align-items-center justify-content-center">
                 <div class="col-md-11 col-lg-6">
-                    <div class="left pe-lg-5">
+                    <div class="left pe-lg-5" data-aos="fade-right">
                         <h2>Contact Information</h2>
                         <p class="text-muted info">I am text block. Click edit button to change this text. Lorem ipsum
                             dolor
@@ -242,7 +244,7 @@
                     </div>
                 </div>
                 <div class="col-md-11 col-lg-6">
-                    <div class="right">
+                    <div class="right" data-aos="fade-left">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d438364.48351425835!2d31.029027400000004!3d30.866442649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2seg!4v1715598378370!5m2!1sen!2seg"
                             style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -373,6 +375,11 @@
 
     <!-- jQ -->
     <script src="./core/js/jquery-3.7.1.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- bs -->
     <script src="./core/js/bootstrap.bundle.min.js"></script>
     <!-- main -->
