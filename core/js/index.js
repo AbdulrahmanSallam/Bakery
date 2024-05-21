@@ -1,4 +1,3 @@
-/// <reference types="../@types/jquery" />;
 // navbar
 const nav = document.getElementById("nav");
 const img1 = document.getElementById("img1");
