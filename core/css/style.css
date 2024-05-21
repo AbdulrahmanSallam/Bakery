@@ -126,15 +126,15 @@ header .content .bottom .btn2:hover {
   color: black !important;
 }
 
-#section2 .right p {
+#about .right p {
   margin-block: 1.5rem;
 }
-#section2 .right ul li {
+#about .right ul li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-#section2 .right ul .icon {
+#about .right ul .icon {
   width: 45px;
   height: 45px;
   display: flex;
@@ -147,39 +147,39 @@ header .content .bottom .btn2:hover {
   color: #8e7754;
 }
 
-#section3 {
+#ourlocation {
   background-color: #f8f8f8;
 }
-#section3 .left .p-center {
+#ourlocation .left .p-center {
   margin-block: 1.5rem;
 }
 
-#section4 .header {
+#ourbaking .header {
   margin-bottom: 2.5rem;
 }
-#section4 .header h2 {
+#ourbaking .header h2 {
   margin-bottom: 1rem;
 }
-#section4 .content h3 {
+#ourbaking .content h3 {
   margin-block: 1.3rem;
 }
 
-#section5 {
+#contact {
   background-color: #f8f8f8;
 }
-#section5 .left .info {
+#contact .left .info {
   margin-block: 1.5rem;
 }
-#section5 .left .label {
+#contact .left .label {
   margin-bottom: 1rem;
 }
-#section5 .left ul li {
+#contact .left ul li {
   margin-bottom: 20px;
 }
-#section5 .left ul li .bg {
+#contact .left ul li .bg {
   color: #8e7754;
 }
-#section5 .right iframe {
+#contact .right iframe {
   display: block;
   width: 100%;
   height: 500px;
@@ -210,13 +210,13 @@ header .content .bottom .btn2:hover {
   transform: translateX(5px);
 }
 
-#footer {
+#social {
   background-color: #353330;
 }
-#footer p {
+#social p {
   margin-block: 1.5rem;
 }
-#footer .bg {
+#social .bg {
   color: #403d38;
 }
 
@@ -248,7 +248,7 @@ header .content .bottom .btn2:hover {
     padding-inline: 1.4rem;
     padding-block: 0.8rem;
   }
-  #section5 .right iframe {
+  #contact .right iframe {
     height: 400px;
   }
 }
@@ -266,7 +266,7 @@ header .content .bottom .btn2:hover {
     padding-inline: 1.2rem;
     padding-block: 0.7rem;
   }
-  #section5 .right iframe {
+  #contact .right iframe {
     height: 350px;
   }
 }/*# sourceMappingURL=style.css.map */

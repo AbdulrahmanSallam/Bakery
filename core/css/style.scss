@@ -138,7 +138,7 @@ header {
 // ============   End Home   ============
 // ============ START section 2   ============
 
-#section2 {
+#about {
   .right {
     p {
       margin-block: 1.5rem;
@@ -167,7 +167,7 @@ header {
 
 // ============ END section 2  ============
 // ============ START section 3  ============
-#section3 {
+#ourlocation {
   background-color: $bg-color;
   .left {
     .p-center {
@@ -178,7 +178,7 @@ header {
 
 // ============ END section 3  ============
 // ============ START section 4  ============
-#section4 {
+#ourbaking {
   .header {
     margin-bottom: 2.5rem;
     h2 {
@@ -195,7 +195,7 @@ header {
 // ============ END section 4 ============
 
 // ============ START section 5 ============
-#section5 {
+#contact {
   background-color: $bg-color;
   .left {
     .info {
@@ -252,7 +252,7 @@ header {
 }
 // ============ END section6 ============
 // ============ Footer ============
-#footer {
+#social {
   background-color: $bg-footer;
   p {
     margin-block: 1.5rem;
@@ -315,7 +315,7 @@ header {
     }
   }
   // section5
-  #section5 {
+  #contact {
     .right {
       iframe {
         height: 400px;
@@ -345,7 +345,7 @@ header {
       }
     }
   }
-  #section5 {
+  #contact {
     .right {
       iframe {
         height: 350px;
