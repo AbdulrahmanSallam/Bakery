@@ -1,0 +1,355 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+// variables
+$main-color: #8e7754;
+$bg-color: #f8f8f8;
+$bg-2: #403d38;
+$bg-footer: #353330;
+$main-padding: 4.5rem;
+
+// ============ Start Global ============
+p,
+h1 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.cusor-pointer {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Alegreya", serif;
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.0625rem;
+}
+.bttn {
+  border: 0;
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  color: inherit;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.main-padding {
+  padding-block: $main-padding;
+}
+
+// ============  End Global  ============
+// ============  Start Home  ============
+
+#goTop {
+  position: fixed;
+  right: 2%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+nav {
+  background-color: transparent;
+  transition: background-color 0.5s, padding-top 0.3s;
+  ul {
+    li {
+      padding-inline: 10px;
+      font-size: 1.17rem;
+      .active {
+        width: 80%;
+        height: 2px;
+        border-bottom: 2px solid $main-color;
+      }
+      cursor: pointer;
+      a {
+        transition: color 0.5s;
+        text-wrap: nowrap;
+      }
+    }
+  }
+}
+
+header {
+  min-height: 100vh;
+  background-image: url("../../assets/images/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    max-width: 700px;
+    color: white !important;
+    .header {
+      text-align: center;
+      span {
+        font-size: 1.37rem;
+      }
+      h1 {
+        margin-block: 1.3rem;
+        font-size: 3.5rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+    .bottom {
+      margin-top: 3rem;
+      .btn1 {
+        background-color: $main-color;
+        border-color: $main-color;
+        transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+        &:hover {
+          background-color: white;
+          border-color: white;
+          color: black !important;
+        }
+      }
+      .btn2 {
+        background-color: transparent;
+        transition: background-color 0.5s, color 0.5s;
+        &:hover {
+          background-color: white;
+          color: black !important;
+        }
+      }
+    }
+  }
+}
+// on scroll
+.navScroll {
+  background-color: white;
+}
+
+.white {
+  color: white !important;
+}
+.black {
+  color: black !important;
+}
+// ============   End Home   ============
+// ============ START section 2   ============
+
+#about {
+  .right {
+    p {
+      margin-block: 1.5rem;
+    }
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .icon {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $main-color;
+        padding: 1rem;
+        border-radius: 50%;
+        margin-inline-end: 10px;
+        color: $main-color;
+      }
+    }
+  }
+}
+
+// ============ END section 2  ============
+// ============ START section 3  ============
+#ourlocation {
+  background-color: $bg-color;
+  .left {
+    .p-center {
+      margin-block: 1.5rem;
+    }
+  }
+}
+
+// ============ END section 3  ============
+// ============ START section 4  ============
+#ourbaking {
+  .header {
+    margin-bottom: 2.5rem;
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+  .content {
+    h3 {
+      margin-block: 1.3rem;
+    }
+  }
+}
+
+// ============ END section 4 ============
+
+// ============ START section 5 ============
+#contact {
+  background-color: $bg-color;
+  .left {
+    .info {
+      margin-block: 1.5rem;
+    }
+    .label {
+      margin-bottom: 1rem;
+    }
+    ul {
+      li {
+        margin-bottom: 20px;
+        .bg {
+          color: $main-color;
+        }
+      }
+    }
+  }
+  .right {
+    iframe {
+      display: block;
+      width: 100%;
+      height: 500px;
+    }
+  }
+}
+
+// ============ END section5 ============
+// ============ START section6 ============
+#section6 {
+  background-color: $bg-2;
+  h3 {
+    color: #fff !important;
+    margin-bottom: 2rem;
+  }
+  .p-top {
+    margin-bottom: 1.5rem;
+  }
+  ul {
+    li {
+      padding-block: 10px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.224);
+      transition: color 0.2s;
+      .animate {
+        transition: transform 0.3s;
+      }
+      &:hover {
+        color: white;
+        .animate {
+          transform: translateX(5px);
+        }
+      }
+    }
+  }
+}
+// ============ END section6 ============
+// ============ Footer ============
+#social {
+  background-color: $bg-footer;
+  p {
+    margin-block: 1.5rem;
+  }
+  .bg {
+    color: $bg-2;
+  }
+}
+
+// ============ media query =============
+@media (max-width: 1200px) {
+  #section6 {
+    ul {
+      li {
+        a {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    .content {
+      .header {
+        h1 {
+          font-size: 3.2rem;
+        }
+        p {
+          font-size: 1.4rem;
+        }
+      }
+      .bottom {
+        .bttn {
+          padding-inline: 1.5rem;
+          padding-block: 0.9rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  header {
+    .content {
+      .header {
+        h1 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.3rem;
+        }
+      }
+      .bottom {
+        .bttn {
+          padding-inline: 1.4rem;
+          padding-block: 0.8rem;
+        }
+      }
+    }
+  }
+  // section5
+  #contact {
+    .right {
+      iframe {
+        height: 400px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  header {
+    .content {
+      .header {
+        span {
+          font-size: 1.3rem;
+        }
+        h1 {
+          font-size: 2.8rem;
+        }
+        p {
+          font-size: 1.4rem;
+        }
+      }
+      .bottom {
+        .bttn {
+          padding-inline: 1.2rem;
+          padding-block: 0.7rem;
+        }
+      }
+    }
+  }
+  #contact {
+    .right {
+      iframe {
+        height: 350px;
+      }
+    }
+  }
+}
